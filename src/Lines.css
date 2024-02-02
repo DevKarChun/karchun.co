@@ -1,0 +1,26 @@
+.line {
+    height: 4px;
+    background-color: #AAAFE1;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .first-line {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .second-line {
+    margin-left: 60%;
+    margin-right: 0;
+  }
+  
+  .third-line {
+    margin-left: 80%;
+    margin-right: 0;
+  }
+  
+  .line:hover {
+    background-color: #c3c6dd;
+  }

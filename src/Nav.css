@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Inter:wght@500&family=Poppins:wght@200&display=swap');
+
+/* font-family: 'Anonymous Pro', monospace;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+.title-main{
+    font-family: 'Anonymous Pro', monospace;
+    color: #AAAFE1;
+    font-size: 32px;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+  
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-button {
+    font-family: 'Inter', sans-serif;
+    margin-right: 10px;
+    border: none;
+    color: #AAAFE1;
+    background-color: transparent;
+    height: 40px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }  
+
+.nav-button:hover {
+    color: #c3c6dd;
+}
