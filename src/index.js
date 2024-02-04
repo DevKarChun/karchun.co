@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Des1 from './Des1';
 import Nav from './Nav';
 import Lines from './Lines'
 
@@ -13,7 +12,8 @@ root.render(
       <Nav/>
       <Lines/>
     </header>
-    <Des1/>
-    <App/>
+    <section>
+      <App/>
+    </section>
   </div>
 );

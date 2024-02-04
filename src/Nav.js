@@ -16,9 +16,10 @@ function Nav() {
   return (
     <div className='nav-container'>
       <button className='nav-button' onClick={handleHomeButtonClick}>
+        <img className='logo' src={require('./images/K.png')} alt="karchun.co" onClick={handleHomeButtonClick} />
         <h1 className='title-main'>karchun.co</h1>
       </button>
-      <div className='button-container'>
+      <div className='split-container'>
         <button
           className={`nav-button ${selectedButton === 'Portfolios' ? 'selected' : ''}`}
           onClick={() => handleButtonClick('Portfolios')}

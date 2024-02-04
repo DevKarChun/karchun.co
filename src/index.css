@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #2E3037;
+  background-color: #111;
   margin-left: 6%;
   margin-right: 6%;
 }
@@ -16,8 +16,28 @@ code {
     monospace;
 }
 
+/* Styles for screens with width less than or equal to 768px */
+@media (max-width: 768px) {
+  /* Add your styles here for smaller screens */
+  #menu-container1, section {
+    flex-direction: column;
+  }
+}
+
+/* Styles for screens with width greater than 768px */
+@media (min-width: 769px) {
+  /* Add your styles here for larger screens */
+  #menu-container1, section {
+    flex-direction: row;
+  }
+}
+
 #menu-container1{
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: 30px;
   margin-right: 40px;
+}
+
+section{
+  margin-top: 10px;
 }
